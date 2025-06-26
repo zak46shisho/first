@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual environment
+env/
+venv/
+.env/
+.venv/
+
+# SQLite database
+*.sqlite3
+db.sqlite3
+
+# Media and static files (if served locally for development)
+media/
+static/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.bak
+
+# Logs and backups
+*.log
+*.bak
+logs/
+
+# Django specific
+# Django migrations cache
+migrations/__pycache__/
+
+# Local settings (containing sensitive information)
+local_settings.py
+
+# Environment variables
+.env
+.flaskenv
+
+# Test and coverage reports
+.tox/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Node.js dependencies (if using frontend frameworks like React/Vue with Django)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Mac specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
